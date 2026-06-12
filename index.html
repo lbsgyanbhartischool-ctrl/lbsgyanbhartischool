@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LBS Gyan Bharti Public Junior High School</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#222;
+}
+
+header{
+background:#0F172A;
+color:white;
+padding:20px;
+}
+
+.logo-section{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo-section img{
+width:80px;
+height:80px;
+border-radius:50%;
+}
+
+.school-name h1{
+font-size:28px;
+}
+
+.school-name p{
+opacity:.9;
+}
+
+nav{
+background:#1E293B;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+flex-wrap:wrap;
+}
+
+nav li{
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+.slider{
+height:450px;
+overflow:hidden;
+}
+
+.slider img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+section{
+padding:50px 8%;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+color:#0F172A;
+}
+
+.welcome,
+.about-preview,
+.academics-preview{
+text-align:center;
+}
+
+.btn{
+display:inline-block;
+background:#D4AF37;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+margin-top:15px;
+}
+
+.leadership{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card img{
+width:180px;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:10px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery-grid img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+}
+
+footer{
+background:#0F172A;
+color:white;
+text-align:center;
+padding:40px;
+margin-top:40px;
+}
+
+.lang-btn{
+position:fixed;
+right:15px;
+bottom:15px;
+background:#D4AF37;
+border:none;
+padding:12px 15px;
+border-radius:50px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+.hidden{
+display:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-section">
+
+<img src="logo.png" alt="Logo">
+
+<div class="school-name">
+<h1 data-en="L.B.S. Gyan Bharti Public Junior High School"
+    data-hi="एल.बी.एस. ज्ञान भारती पब्लिक जूनियर हाई स्कूल"></h1>
+    <p data-en="Established in 2001" data-hi="स्थापित 2001"></p>
+<p data-en="Malhausi, Auraiya, Uttar Pradesh"
+   data-hi="मल्हौसी, औरैया, उत्तर प्रदेश"></p>
+   
+</div>
+
+</div>
+
+</header>
+
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#leadership">Leadership</a></li>
+<li><a href="#academics">Academics</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="slider" id="home">
+<img id="slide" src="slide1.jpg">
+</section>
+
+<section class="welcome">
+
+<h2 data-en="Welcome" data-hi="स्वागत है"></h2>
+
+<p data-en="Welcome to L.B.S. Gyan Bharti Public Junior High School."
+   data-hi="एल.बी.एस ज्ञान भारती पब्लिक जूनियर हाई स्कूल में आपका स्वागत है।">
+</p>
+
+<p data-en="Since 2001, our institution has been committed to providing quality education and character development."
+   data-hi="2001 से हमारा विद्यालय गुणवत्तापूर्ण शिक्षा एवं संस्कार प्रदान करने के लिए समर्पित है।">
+</p>
+
+</section>
+
+<section id="about" class="about-preview">
+
+<h2 data-en="About School" data-hi="विद्यालय के बारे में"></h2>
+
+<p data-en="Founded with the vision of providing quality education to students in and around Malhausi."
+   data-hi="मल्हौसी और आसपास के छात्रों को गुणवत्तापूर्ण शिक्षा प्रदान करने के उद्देश्य से विद्यालय की स्थापना की गई।">
+</p>
+
+</section>
+<section id="leadership">
+
+<div id="lead-en">
+<h2 data-en="Leadership" data-hi="नेतृत्व"></h2>
+</div>
+
+<div id="lead-hi" class="hidden">
+<h2>नेतृत्व</h2>
+</div>
+
+<div class="card">
+  <img src="manager.jpg">
+
+  <h3 data-en="Mr. Prakash Chandra Srivastava"
+      data-hi="श्री प्रकाश चंद्र श्रीवास्तव"></h3>
+
+  <p data-en="Manager" data-hi="प्रबंधक"></p>
+</div>
+
+<div class="card">
+  <img src="director.jpg">
+
+  <h3 data-en="Mrs. Pushpa Srivastava"
+      data-hi="श्रीमती पुष्पा श्रीवास्तव"></h3>
+
+  <p data-en="Director" data-hi="निदेशक"></p>
+</div>
+
+<div class="card">
+  <img src="principal.jpg" alt="Principal">
+
+  <h3 data-en="Mr. Sanjukta Srivastava"
+      data-hi="श्री संजुक्त श्रीवास्तव"></h3>
+
+  <p data-en="Principal" data-hi="प्रधानाचार्य"></p>
+</div>
+
+<div class="card">
+  <img src="viceprincipal.jpg" alt="Vice Principal">
+
+  <h3 data-en="Mrs. Jyoti Srivastava"
+      data-hi="श्रीमती ज्योति श्रीवास्तव"></h3>
+
+  <p data-en="Vice Principal" data-hi="उप-प्रधानाचार्य"></p>
+</div>
+
+<div class="card">
+  <img src="custodian.jpg" alt="Custodian">
+
+  <h3 data-en="Mr. R.K. Pal"
+      data-hi="श्री आर.के. पाल"></h3>
+
+  <p data-en="Custodian" data-hi="संरक्षक"></p>
+</div>
+
+</div>
+
+</section>
+
+<section id="academics" class="academics-preview">
+
+<h2 data-en="Academics" data-hi="शिक्षा"></h2>
+
+<p data-en="Classes 1 to 8 with focus on academic excellence, discipline and overall development."
+   data-hi="कक्षा 1 से 8 तक शिक्षा, अनुशासन और सर्वांगीण विकास पर ध्यान दिया जाता है।">
+</p>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="slide1.jpg">
+<img src="slide4.jpg">
+<img src="image.jpg">
+<img src="slide3.jpg">
+<img src="slide2.jpg">
+<img src="slide5.jpg">
+<img src="slide6.jpg">
+<img src="slide7.jpg">
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 data-en="Contact Us" data-hi="संपर्क करें"></h2>
+<p data-en="L.B.S. Gyan Bharti Public Junior High School"
+   data-hi="एल.बी.एस. ज्ञान भारती पब्लिक जूनियर हाई स्कूल"></p>
+
+<p data-en="Malhausi, Auraiya, Uttar Pradesh, India"
+   data-hi="मल्हौसी, औरैया, उत्तर प्रदेश, भारत">
+</p>
+
+<br>
+
+<p data-en="Phone: 9412630104 / 9997713776"
+   data-hi="फ़ोन: 9412630104 / 9997713776">
+</p>
+
+</section>
+
+<footer>
+
+<h3>L.B.S. Gyan Bharti Public Junior High School</h3>
+
+<p>Malhausi, Auraiya, Uttar Pradesh</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<button class="lang-btn" onclick="toggleLanguage()">
+हिन्दी
+</button>
+
+<script>
+
+const slides = [
+"slide1.jpg",
+"slide2.jpg",
+"slide3.jpg",
+"slide4.jpg"
+];
+
+let index = 0;
+
+setInterval(() => {
+
+index++;
+
+if(index >= slides.length){
+index = 0;
+}
+
+document.getElementById("slide").src = slides[index];
+
+},3000);
+
+let currentLang = "en";
+
+function applyLanguage(lang) {
+  document.querySelectorAll("[data-en]").forEach(el => {
+    el.innerText = el.getAttribute(`data-${lang}`);
+  });
+  currentLang = lang;
+}
+
+function toggleLanguage() {
+  currentLang = (currentLang === "en") ? "hi" : "en";
+  applyLanguage(currentLang);
+}
+
+// Auto-detect browser language
+window.onload = function () {
+  const browserLang = navigator.language || navigator.userLanguage;
+
+  if (browserLang.startsWith("hi")) {
+    applyLanguage("hi");
+  } else {
+    applyLanguage("en");
+  }
+};
+</script>
+
+</body>
+</html>
